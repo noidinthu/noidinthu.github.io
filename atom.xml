@@ -1,38 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Hexo</title>
+  <title>Noid</title>
   
+  <subtitle>Noid&#39;s Blog</subtitle>
+  <link href="https://noidinthu.github.io/atom.xml" rel="self"/>
   
-  <link href="http://example.com/atom.xml" rel="self"/>
-  
-  <link href="http://example.com/"/>
-  <updated>2023-06-24T14:36:34.323Z</updated>
-  <id>http://example.com/</id>
+  <link href="https://noidinthu.github.io/"/>
+  <updated>2023-06-24T17:08:24.269Z</updated>
+  <id>https://noidinthu.github.io/</id>
   
   <author>
-    <name>John Doe</name>
+    <name>Xue Zhiyu</name>
     
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hello World</title>
-    <link href="http://example.com/2023/06/24/hello-world/"/>
-    <id>http://example.com/2023/06/24/hello-world/</id>
-    <published>2023-06-24T14:36:34.323Z</published>
-    <updated>2023-06-24T14:36:34.323Z</updated>
+    <title>New Start!</title>
+    <link href="https://noidinthu.github.io/2023/06/25/New-Start/"/>
+    <id>https://noidinthu.github.io/2023/06/25/New-Start/</id>
+    <published>2023-06-24T16:43:41.000Z</published>
+    <updated>2023-06-24T17:08:24.269Z</updated>
     
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    <content type="html"><![CDATA[<h1 id="开始"><a href="#开始" class="headerlink" title="开始"></a>开始</h1><p>大二结束后的暑假，我决定开始写一下博客。如同之前的所有日记等等，我不知道这个博客能够坚持多久以及更新频率如何，但还是想要尝试一下，希望三分钟热度能激励我充实度过这个暑假。</p><h2 id="写博客的原因"><a href="#写博客的原因" class="headerlink" title="写博客的原因"></a>写博客的原因</h2><p>首先是为了自己考虑，之前高中时我记笔记的好习惯已经一去不复返了，现在学到的新东西很快忘记又得重新查，所以我想通过博客的方式增强一下记忆，同时之后再用到的相关知识可以在这里查到。当然为了更新一个博客也许会让我更加充满学习的动力？</p><p>其次还是致敬一下知识共享的精神吧，毕竟我也是从很多其他人的博客中受益的人之一，现在我也许可以通过记录我的学习来进行一些产出，帮助一下曾经和我一样迷茫的人。</p><p>最后的原因可能还是抱着尝试新事物的想法吧，我接触计算机已经很久了，直到现在大二对计算机的专业认知还是很写意，写博客包括尝试学习其他的IT技术也是我一直立而未行的目标，趁现在还有点时间就尽可能多学多做一点吧。</p><h2 id="关于更新"><a href="#关于更新" class="headerlink" title="关于更新"></a>关于更新</h2><p>因为不知道之后的学业&#x2F;工作压力如何，所以并不能确保更新的时间和频率，但是为了督促我学习我还是会尽可能的更快地更新。</p><p>关于更新的内容，我的想法是主要记录一下我的学习过程，也算是一种学习笔记，所以内容并不能保证完全原创，也可能是对其他人总结的重复，甚至直接贴上别的博客的链接也不是没有可能。当然我也会督促自己提高博客的质量，尽量增加原创，毕竟这样才能有更好的学习效果。</p><p>内容和方向也不全是计算机专业相关，一些现实的想法，最近的读书笔记，其他的新奇知识等都可以当做更新的内容，毕竟是记录自己的学习过程，当然多元化一点还是好的。</p><h2 id="其他想说的话"><a href="#其他想说的话" class="headerlink" title="其他想说的话"></a>其他想说的话</h2><p>其实真的不确定自己能不能坚持下去，而且我的语文功底也可能没办法支持长时间的写作，但凡事都要有个开始才能知道结果，所以我从现在开始了，也祝我能够有更多的收获。</p><p>也祝有缘看到这段文字的人每天都有新收获。</p><p>一直喜欢的名言，共勉：</p><blockquote><p>怕什么真理无穷，进一寸有进一寸的欢喜。 ——胡适</p></blockquote><p>更新于2023年6月25日凌晨</p>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
+    <summary type="html">&lt;h1 id=&quot;开始&quot;&gt;&lt;a href=&quot;#开始&quot; class=&quot;headerlink&quot; title=&quot;开始&quot;&gt;&lt;/a&gt;开始&lt;/h1&gt;&lt;p&gt;大二结束后的暑假，我决定开始写一下博客。如同之前的所有日记等等，我不知道这个博客能够坚持多久以及更新频率如何，但还是想要尝试一下，希望三分钟</summary>
       
     
     
     
+    
+    <category term="start" scheme="https://noidinthu.github.io/tags/start/"/>
     
   </entry>
   
