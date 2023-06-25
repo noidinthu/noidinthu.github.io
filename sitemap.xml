@@ -2,6 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://noidinthu.github.io/link/</loc>
+    
+    <lastmod>2023-06-25</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://noidinthu.github.io/categories/</loc>
+    
+    <lastmod>2023-06-25</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://noidinthu.github.io/tags/</loc>
+    
+    <lastmod>2023-06-25</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://noidinthu.github.io/2023/06/25/New-Start/</loc>
     
     <lastmod>2023-06-24</lastmod>
@@ -13,7 +40,7 @@
 
   <url>
     <loc>https://noidinthu.github.io/</loc>
-    <lastmod>2023-06-24</lastmod>
+    <lastmod>2023-06-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -21,7 +48,7 @@
   
   <url>
     <loc>https://noidinthu.github.io/tags/start/</loc>
-    <lastmod>2023-06-24</lastmod>
+    <lastmod>2023-06-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>

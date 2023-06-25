@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Noid</title>
-  
+  <title>Noid&#39;s Blog</title>
+  <icon>https://www.gravatar.com/avatar/fdf31995305c6416b1e799604cf0d3c9</icon>
   <subtitle>Noid&#39;s Blog</subtitle>
   <link href="https://noidinthu.github.io/atom.xml" rel="self"/>
   
@@ -10,8 +10,8 @@
   <id>https://noidinthu.github.io/</id>
   
   <author>
-    <name>Xue Zhiyu</name>
-    
+    <name>Noid</name>
+    <email>noidinthu@outlook.com</email>
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
