@@ -5,4 +5,5 @@ https://noidinthu.github.io/tags/
 https://noidinthu.github.io/2023/06/25/New-Start/
 https://noidinthu.github.io/
 https://noidinthu.github.io/tags/start/
-https://noidinthu.github.io/tags/linux-%E8%99%9A%E6%8B%9F%E6%9C%BA/
+https://noidinthu.github.io/tags/linux/
+https://noidinthu.github.io/tags/%E8%99%9A%E6%8B%9F%E6%9C%BA/
