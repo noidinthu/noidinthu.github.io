@@ -6,7 +6,7 @@
   <link href="https://noidinthu.github.io/atom.xml" rel="self"/>
   
   <link href="https://noidinthu.github.io/"/>
-  <updated>2023-06-24T17:08:24.269Z</updated>
+  <updated>2023-06-27T14:08:44.177Z</updated>
   <id>https://noidinthu.github.io/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>linux虚拟机的安装与使用技巧</title>
+    <link href="https://noidinthu.github.io/2023/06/26/linux%E8%99%9A%E6%8B%9F%E6%9C%BA%E7%9A%84%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/"/>
+    <id>https://noidinthu.github.io/2023/06/26/linux%E8%99%9A%E6%8B%9F%E6%9C%BA%E7%9A%84%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/</id>
+    <published>2023-06-26T13:29:41.000Z</published>
+    <updated>2023-06-27T14:08:44.177Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="虚拟机的安装"><a href="#虚拟机的安装" class="headerlink" title="虚拟机的安装"></a>虚拟机的安装</h1><h2 id="为什么要安装虚拟机"><a href="#为什么要安装虚拟机" class="headerlink" title="为什么要安装虚拟机"></a>为什么要安装虚拟机</h2><p>本来我使用wsl基本上处理linux相关的任务，但是毕竟wsl只是一个子系统，与原生的linux相差还是很大的，同时我也想体验一下较为沉浸的linux使用体验，所以wsl还是不够满足需求。</p><p>为什么不选则双系统，双系统的优点是对硬件的要求低，同时因为没有嵌套所以性能更好，用起来沉浸感也会更好一点；然而双系统的缺点是每次切换系统需要较长时间的重启，同时两个系统之间基本上没有关联，存储空间也相对隔离，难以做到便捷协同。</p><p>虽然虚拟机性能可能没有双系统好，但是虚拟机可以做到很方便的系统间切换，同时传输文件，实现文件共享也比较方便，比较适合我现在依赖windows而需要学习linux的情况。</p><h2 id="安装虚拟机流程"><a href="#安装虚拟机流程" class="headerlink" title="安装虚拟机流程"></a>安装虚拟机流程</h2><p>我在安装的时候没有遇到什么障碍，直接参考网络上的博客安装即可。</p><p>首先需要一个虚拟机软件，常用的由VMware和virtualbox，我看了几篇文章说VMware功能相对较多一点，所以我选择安装VMware Workstation Pro 17。一路上安装比较顺利。</p><p>然后需要提前下载操作系统镜像文件，例如我选择新手友好型的ubuntu，就到ubuntu的官网下载相应的iso文件，如果网络问题比较慢可以到清华源下载，我用校园网速度还挺快。</p><p>下载后就可以通过VMware创建虚拟机，导入ubuntu的镜像文件，配置相应的硬件资源等，我感觉硬盘20G可能不太够用所以分了40G，在实际设置的时候还是需要结合自身的需求和硬件条件来选择。</p><p>在设置好之后按照提示进行ubuntu的初始设置，等待安装完成，重启之后即完成。</p><h1 id="虚拟机的使用技巧"><a href="#虚拟机的使用技巧" class="headerlink" title="虚拟机的使用技巧"></a>虚拟机的使用技巧</h1><h2 id="安装vmtools"><a href="#安装vmtools" class="headerlink" title="安装vmtools"></a>安装vmtools</h2><p>安装vmtools可以方便地在虚拟机和主机之间复制文件。</p><p>需要下载相应iso镜像文件，然后安装到虚拟机中。</p><h2 id="快照功能"><a href="#快照功能" class="headerlink" title="快照功能"></a>快照功能</h2><p>使用虚拟机的快照可以方便地恢复到快照的状态，适合于在做某项危险的测试之前进行快照，这样如果虚拟机崩溃可以快速恢复到之前的状态。</p><p>在建立快照之前要先关机，减少快照占用的空间。</p><h2 id="虚拟机克隆"><a href="#虚拟机克隆" class="headerlink" title="虚拟机克隆"></a>虚拟机克隆</h2><p>在进行集成环境测试，如果安装配置好一个虚拟机，可以通过虚拟机克隆来克隆多个相同的虚拟机，这样可以获得多个相同的开发环境，并用于集成测试。</p><p>选择链接克隆可以减少克隆需要的空间。</p><h2 id="增加物理内存"><a href="#增加物理内存" class="headerlink" title="增加物理内存"></a>增加物理内存</h2><p>虚拟机的一些参数初始设置之后还是可以进行修改的，例如可以增加物理内存，在“编辑虚拟机设置”中修改即可。</p><h2 id="控制权切换"><a href="#控制权切换" class="headerlink" title="控制权切换"></a>控制权切换</h2><p>当发现鼠标或者键盘在某一个系统中无法使用时，默认可以使用ctrl+alt组合键切换控制权。</p><h2 id="关机"><a href="#关机" class="headerlink" title="关机"></a>关机</h2><p>如果直接使用VMware上的按钮关机相当于非法关机，据说会影响下次虚拟机启动。正确的方法是执行命令init 0。但我实操发现两种方法差不多？</p><h2 id="发送快捷键"><a href="#发送快捷键" class="headerlink" title="发送快捷键"></a>发送快捷键</h2><p>当想要发送“Ctrl+Alt+Del”快捷键时，会导致主机也做出相同相应，在虚拟机中发送快捷键使用“Ctrl+Alt+Insert”。</p><h2 id="虚拟机网络"><a href="#虚拟机网络" class="headerlink" title="虚拟机网络"></a>虚拟机网络</h2><p>vmware中虚拟机的网络有三种工作模式，分别是桥接（Bridegd），NAT，Host-Only。</p><p>但是因为我网原知识考完就忘了，所以对这几种方式的区别还不是很理解。</p><h2 id="进入BIOS"><a href="#进入BIOS" class="headerlink" title="进入BIOS"></a>进入BIOS</h2><p>如果因为进入虚拟机太快而没能按下F2，可以选择绿色箭头下的“打开电源时进入固件”。</p><p>因为是刚装上虚拟机还没有太多的需求，所以以上就先总结这些基本的使用方法。</p><p>更新于2023&#x2F;6&#x2F;27晚。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;虚拟机的安装&quot;&gt;&lt;a href=&quot;#虚拟机的安装&quot; class=&quot;headerlink&quot; title=&quot;虚拟机的安装&quot;&gt;&lt;/a&gt;虚拟机的安装&lt;/h1&gt;&lt;h2 id=&quot;为什么要安装虚拟机&quot;&gt;&lt;a href=&quot;#为什么要安装虚拟机&quot; class=&quot;headerlink</summary>
+      
+    
+    
+    
+    
+    <category term="linux 虚拟机" scheme="https://noidinthu.github.io/tags/linux-%E8%99%9A%E6%8B%9F%E6%9C%BA/"/>
+    
+  </entry>
   
   <entry>
     <title>New Start!</title>
